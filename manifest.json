@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.hugorolimf.arrange",
+  "name": "Island Arrange",
+  "version": "1.0.0",
+  "author": "Hugo Rolim Filho",
+  "license": "MIT",
+  "homepage": "https://github.com/hugorolimf/omarchy-island-arrange",
+  "description": "Super + A shows how to arrange a screen's windows, previewed on the screen itself. Works with Smart Windows",
+  "kinds": [
+    "panel"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "panel": "Main.qml"
+  }
+}
