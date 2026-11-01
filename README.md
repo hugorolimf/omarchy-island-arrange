@@ -5,6 +5,8 @@
 **See how your windows would fit before they move.**
 Super + A shows the ways to arrange a screen, previewed on the screen itself.
 
+![Island Arrange: the models for three windows, previewed on the screen](preview.png)
+
 </div>
 
 ## Why this one
