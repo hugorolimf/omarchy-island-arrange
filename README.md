@@ -34,7 +34,7 @@ works out the models and moves the windows. On its own, this panel does nothing.
 
 ```bash
 git clone https://github.com/hugorolimf/omarchy-smart-windows
-git -C omarchy-smart-windows checkout --detach 7d6a8a2c3b6bdf2835f8613c33b46bcdd4af9f25
+git -C omarchy-smart-windows checkout --detach d71448df605b5135cfb732a258b37648a26a0c4b
 omarchy-smart-windows/install.sh
 omarchy plugin add https://github.com/hugorolimf/omarchy-island-arrange --enable
 omarchy-restart-shell
