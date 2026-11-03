@@ -27,22 +27,18 @@ It arranges once, when you pick. Nothing moves afterwards.
 
 ## Requirements
 
-[Smart Windows](https://github.com/hugorolimf/omarchy-smart-windows) 2.0 or newer, which
-works out the models and moves the windows. On its own, this panel does nothing.
+[Smart Windows](https://github.com/hugorolimf/omarchy-smart-windows), which works out the
+models and moves the windows; on its own, this panel does nothing. Install it first by its
+own README, at the commit this panel was tested with:
+[`d71448d`](https://github.com/hugorolimf/omarchy-smart-windows/tree/d71448df605b5135cfb732a258b37648a26a0c4b)
+(it keeps no log).
 
 ## Install
 
 ```bash
-git init omarchy-smart-windows
-git -C omarchy-smart-windows fetch --depth 1 https://github.com/hugorolimf/omarchy-smart-windows d71448df605b5135cfb732a258b37648a26a0c4b
-git -C omarchy-smart-windows checkout --detach FETCH_HEAD
-omarchy-smart-windows/install.sh
 omarchy plugin add https://github.com/hugorolimf/omarchy-island-arrange --enable
 omarchy-restart-shell
 ```
-
-Only that exact Smart Windows commit is fetched (the one this panel was tested with, which
-keeps no log), so the installer you run is exactly the one that was reviewed.
 
 ## How it talks to Smart Windows
 
