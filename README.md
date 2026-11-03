@@ -33,15 +33,16 @@ works out the models and moves the windows. On its own, this panel does nothing.
 ## Install
 
 ```bash
-git clone https://github.com/hugorolimf/omarchy-smart-windows
-git -C omarchy-smart-windows checkout --detach d71448df605b5135cfb732a258b37648a26a0c4b
+git init omarchy-smart-windows
+git -C omarchy-smart-windows fetch --depth 1 https://github.com/hugorolimf/omarchy-smart-windows d71448df605b5135cfb732a258b37648a26a0c4b
+git -C omarchy-smart-windows checkout --detach FETCH_HEAD
 omarchy-smart-windows/install.sh
 omarchy plugin add https://github.com/hugorolimf/omarchy-island-arrange --enable
 omarchy-restart-shell
 ```
 
-The commit above is the Smart Windows 2.0 release this panel was tested with, so the
-installer you run is exactly the one that was reviewed.
+Only that exact Smart Windows commit is fetched (the one this panel was tested with, which
+keeps no log), so the installer you run is exactly the one that was reviewed.
 
 ## How it talks to Smart Windows
 
